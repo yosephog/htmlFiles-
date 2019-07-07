@@ -1,0 +1,17 @@
+
+
+  table,th,td{
+    border:1px solid black;
+  }
+  th{
+    text-align:left;
+  }
+body{
+  background: powderblue;
+}
+h1{
+  color: blueM
+}
+p{
+  color:red;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Form</title>
+  </head>
+  <body>
+    <button type="button" name="button" onclick="alert('Hello world')">Click Me</button>
+    <form >
+      First name: <br>
+      <input type="text" name="firstname"> <br>
+      Lastname: <br>
+      <input type="text" name="lastname">
+    </form>
+    <br>
+    <form>
+      <input type="radio" name="gender" value="male" checked> Male <br>
+      <input type="radio" name="gender" value="Female">Female <br>
+      <input type="radio" name="gender" value="other"> Other
+    </form>
+   <br>
+    <form action="/action_page.php">
+      Firstname: <br>
+      <input type="text" name="firstname" value="Mickey"> <br>
+      LastName: <br>
+      <input type="text" name="lastname" value="Mouse"> <br><br>
+      <input type="submit" name="" value="Submit">
+
+    </form>
+    <br><br>
+    <select  name="cars" size="2">
+      <option value="Volvo">Volvo</option>
+      <option value="saab">Saab</option>
+      <option value="BMW">BMW</option>
+    </select>
+    <br><br><br><br>
+    <textarea name="message" rows="8" cols="30">
+      The cat was playing in the garden.
+    </textarea>
+  </body>
+</html>
